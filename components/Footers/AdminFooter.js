@@ -1,19 +1,3 @@
-/*!
-
-=========================================================
-* NextJS Argon Dashboard PRO - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/nextjs-argon-dashboard-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -30,10 +14,10 @@ function AdminFooter() {
                 © {new Date().getFullYear()}{" "}
                 <a
                   className="font-weight-bold ml-1"
-                  href="https://www.creative-tim.com?ref=adpr-admin-footer"
+                  href="#"
                   target="_blank"
                 >
-                  Creative Tim
+                  BoomGTech Inc.
                 </a>
               </div>
             </Col>
@@ -41,15 +25,15 @@ function AdminFooter() {
               <Nav className="nav-footer justify-content-center justify-content-lg-end">
                 <NavItem>
                   <NavLink
-                    href="https://www.creative-tim.com?ref=adpr-admin-footer"
+                    href="#"
                     target="_blank"
                   >
-                    Creative Tim
+                    BoomGTech
                   </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    href="https://www.creative-tim.com/presentation?ref=adpr-admin-footer"
+                    href="#"
                     target="_blank"
                   >
                     About Us
@@ -57,7 +41,7 @@ function AdminFooter() {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    href="http://blog.creative-tim.com?ref=adpr-admin-footer"
+                    href="#"
                     target="_blank"
                   >
                     Blog
@@ -65,7 +49,7 @@ function AdminFooter() {
                 </NavItem>
                 <NavItem>
                   <NavLink
-                    href="https://www.creative-tim.com/license?ref=adpr-admin-footer"
+                    href="#"
                     target="_blank"
                   >
                     License

@@ -1,19 +1,3 @@
-/*!
-
-=========================================================
-* NextJS Argon Dashboard PRO - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/nextjs-argon-dashboard-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import Link from "next/link";
 // reactstrap components
@@ -45,7 +29,7 @@ function AdminNavbar() {
               <NavbarBrand href="#pablo">
                 <img
                   alt="..."
-                  src={require("assets/img/brand/nextjs_argon_white.png")}
+                  src={require("assets/img/brand/logo_boom.png")}
                 />
               </NavbarBrand>
             </span>
@@ -71,7 +55,7 @@ function AdminNavbar() {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <Link href="/admin/dashboard">
-                    <img alt="..." src={require("assets/img/brand/blue.png")} />
+                    <img alt="..." src={require("assets/img/brand/logo_boom.png")} />
                   </Link>
                 </Col>
                 <Col className="collapse-close" xs="6">
@@ -100,13 +84,6 @@ function AdminNavbar() {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link href="/auth/pricing">
-                  <NavLink href="#pablo">
-                    <span className="nav-link-inner--text">Pricing</span>
-                  </NavLink>
-                </Link>
-              </NavItem>
-              <NavItem>
                 <Link href="/auth/login">
                   <NavLink href="#pablo">
                     <span className="nav-link-inner--text">Login</span>
@@ -120,20 +97,13 @@ function AdminNavbar() {
                   </NavLink>
                 </Link>
               </NavItem>
-              <NavItem>
-                <Link href="/auth/lock">
-                  <NavLink href="#pablo">
-                    <span className="nav-link-inner--text">Lock</span>
-                  </NavLink>
-                </Link>
-              </NavItem>
             </Nav>
             <hr className="d-lg-none" />
             <Nav className="align-items-lg-center ml-lg-auto" navbar>
               <NavItem>
                 <NavLink
                   className="nav-link-icon"
-                  href="https://www.facebook.com/creativetim?ref=creative-tim"
+                  href="#"
                   id="tooltip601201423"
                   target="_blank"
                 >
@@ -149,7 +119,7 @@ function AdminNavbar() {
               <NavItem>
                 <NavLink
                   className="nav-link-icon"
-                  href="https://www.instagram.com/creativetimofficial?ref=creative-tim"
+                  href="#"
                   id="tooltip871243015"
                   target="_blank"
                 >
@@ -165,7 +135,7 @@ function AdminNavbar() {
               <NavItem>
                 <NavLink
                   className="nav-link-icon"
-                  href="https://twitter.com/creativetim?ref=creative-tim"
+                  href="#"
                   id="tooltip366258619"
                   target="_blank"
                 >
@@ -177,33 +147,6 @@ function AdminNavbar() {
                 <UncontrolledTooltip delay={0} target="tooltip366258619">
                   Follow us on Twitter
                 </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  className="nav-link-icon"
-                  href="https://github.com/creativetimofficial?ref=creative-tim"
-                  id="tooltip931502898"
-                  target="_blank"
-                >
-                  <i className="fab fa-github" />
-                  <span className="nav-link-inner--text d-lg-none">Github</span>
-                </NavLink>
-                <UncontrolledTooltip delay={0} target="tooltip931502898">
-                  Star us on Github
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem className="d-none d-lg-block ml-lg-4">
-                <Button
-                  className="btn-neutral btn-icon"
-                  color="default"
-                  href="https://www.creative-tim.com/product/nextjs-argon-dashboard-pro?ref=njsadp-index-navbar"
-                  target="_blank"
-                >
-                  <span className="btn-inner--icon">
-                    <i className="fas fa-shopping-cart mr-2" />
-                  </span>
-                  <span className="nav-link-inner--text">Purchase now</span>
-                </Button>
               </NavItem>
             </Nav>
           </UncontrolledCollapse>

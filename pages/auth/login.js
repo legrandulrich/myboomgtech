@@ -1,19 +1,4 @@
-/*!
 
-=========================================================
-* NextJS Argon Dashboard PRO - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/nextjs-argon-dashboard-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
@@ -44,8 +29,8 @@ function Login() {
   return (
     <>
       <AuthHeader
-        title="Welcome!"
-        lead="Use these awesome forms to login or create new account in your project for free."
+        title="Bienenue sur BoomGTech!"
+        lead="Connectez-Vous!"
       />
       <Container className="mt--8 pb-5">
         <Row className="justify-content-center">
@@ -53,23 +38,9 @@ function Login() {
             <Card className="bg-secondary border-0 mb-0">
               <CardHeader className="bg-transparent pb-5">
                 <div className="text-muted text-center mt-2 mb-3">
-                  <small>Sign in with</small>
+                  <small>Se connecter avec</small>
                 </div>
                 <div className="btn-wrapper text-center">
-                  <Button
-                    className="btn-neutral btn-icon"
-                    color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <span className="btn-inner--icon mr-1">
-                      <img
-                        alt="..."
-                        src={require("assets/img/icons/common/github.svg")}
-                      />
-                    </span>
-                    <span className="btn-inner--text">Github</span>
-                  </Button>
                   <Button
                     className="btn-neutral btn-icon"
                     color="default"
@@ -88,7 +59,7 @@ function Login() {
               </CardHeader>
               <CardBody className="px-lg-5 py-lg-5">
                 <div className="text-center text-muted mb-4">
-                  <small>Or sign in with credentials</small>
+                  <small>Ou avec ses paramètres</small>
                 </div>
                 <Form role="form">
                   <FormGroup
@@ -139,7 +110,7 @@ function Login() {
                       className="custom-control-label"
                       htmlFor=" customCheckLogin"
                     >
-                      <span className="text-muted">Remember me</span>
+                      <span className="text-muted">Se souvenir de moi</span>
                     </label>
                   </div>
                   <div className="text-center">
@@ -157,7 +128,7 @@ function Login() {
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <small>Forgot password?</small>
+                  <small>Mot de passe oublié ?</small>
                 </a>
               </Col>
               <Col className="text-right" xs="6">
@@ -166,7 +137,7 @@ function Login() {
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
                 >
-                  <small>Create new account</small>
+                  <small>Créer un nouveau compte</small>
                 </a>
               </Col>
             </Row>

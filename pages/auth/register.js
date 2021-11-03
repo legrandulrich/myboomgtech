@@ -1,19 +1,3 @@
-/*!
-
-=========================================================
-* NextJS Argon Dashboard PRO - v1.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/nextjs-argon-dashboard-pro
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 // nodejs library that concatenates classes
 import classnames from "classnames";
@@ -45,8 +29,8 @@ function Register() {
   return (
     <>
       <AuthHeader
-        title="Create an account"
-        lead="Use these awesome forms to login or create new account in your project for free."
+        title="Créer mon compte"
+        lead="Utilisez le formulaire ci-dessous pour créer votre compte sur BoomGTech."
       />
       <Container className="mt--8 pb-5">
         <Row className="justify-content-center">
@@ -54,23 +38,9 @@ function Register() {
             <Card className="bg-secondary border-0">
               <CardHeader className="bg-transparent pb-5">
                 <div className="text-muted text-center mt-2 mb-4">
-                  <small>Sign up with</small>
+                  <small>Se connecter avec</small>
                 </div>
                 <div className="text-center">
-                  <Button
-                    className="btn-neutral btn-icon mr-4"
-                    color="default"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <span className="btn-inner--icon mr-1">
-                      <img
-                        alt="..."
-                        src={require("assets/img/icons/common/github.svg")}
-                      />
-                    </span>
-                    <span className="btn-inner--text">Github</span>
-                  </Button>
                   <Button
                     className="btn-neutral btn-icon"
                     color="default"
@@ -89,7 +59,7 @@ function Register() {
               </CardHeader>
               <CardBody className="px-lg-5 py-lg-5">
                 <div className="text-center text-muted mb-4">
-                  <small>Or sign up with credentials</small>
+                  <small>Ou avec ses paramètres</small>
                 </div>
                 <Form role="form">
                   <FormGroup
@@ -184,7 +154,7 @@ function Register() {
                   </Row>
                   <div className="text-center">
                     <Button className="mt-4" color="info" type="button">
-                      Create account
+                      Créer mon compte
                     </Button>
                   </div>
                 </Form>
