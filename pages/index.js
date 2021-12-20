@@ -31,12 +31,12 @@ function Index() {
                   BoomGTech solution
                 </h2>
                 <p className="lead text-white">
-                  BoomGTech est une autoroutes d’infrastructures technologiques pensée par
-                  une équipe d’ingénieurs aux compétences multiples dans le but de fournir
-                  au grand public ainsi qu’aux d’entreprises solutions de proximité qui
-                  répondent en toute sécurité et confidentialité aux exigences de la vie
-                  quotidienne. Trouvez-le ou les produits qui vous conviennent
-                  et commencez à les utiliser des aujourd’hui !
+                  BoomGTech est une autoroute d'infrastructures technologiques pensées
+                  par une équipe d'ingénieurs aux compétences multiples dans le but de
+                  fournir au grand public ainsi qu'aux entreprises des solutions
+                  adaptées pour répondre en toute sécurité et confidentialité aux exigences des
+                  activités et tâches du quotidien. Trouvez le ou les services qui vous
+                  conviennent et commencez à les utiliser dès aujourd'hui.
                 </p>
               </Col>
               <br></br>
@@ -57,12 +57,11 @@ function Index() {
                 <div className="pr-md-5">
                   <h1>BoomG Education</h1>
                   <p>
-                    BoomG Education est un set d'outils numériques de BoomGTech
-                    conçus pour héberger et distribuer des documents numériques,
-                    la communication et la collaboration par le biais
-                    des technologies innovantes entre les principaux acteurs de
-                    la communauté éducative que sont les élèves, les enseignants,
-                    les parents et l’administration.
+                    BoomG Éducation est un ensemble d'applications numériques conçues par
+                    BoomGTech pour l'hébergement et la  distribution des contenus numériques,
+                    la communication et la collaboration par le biais des technologies innovantes
+                    entre les principaux acteurs de la communauté éducative qui sont les élèves,
+                    les enseignants, les parents et l'administration.
                   </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
@@ -173,8 +172,8 @@ function Index() {
                 <div className="pr-md-5">
                   <h1>BoomG Commerce</h1>
                   <p>
-                  Utilisez ces outils pour booster votre capital et élargir votre
-                  assiette client pour une meilleure santé de votre Business.
+                    Utilisez ces outils pour booster votre capital et élargir votre
+                    assiette client pour une meilleure santé de votre Business.
                   </p>
                   <ul className="list-unstyled mt-5">
                     <li className="py-2">
